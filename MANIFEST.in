@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include drkhaled *.css
+recursive-include drkhaled *.csv
+recursive-include drkhaled *.html
+recursive-include drkhaled *.ico
+recursive-include drkhaled *.js
+recursive-include drkhaled *.json
+recursive-include drkhaled *.md
+recursive-include drkhaled *.png
+recursive-include drkhaled *.py
+recursive-include drkhaled *.svg
+recursive-include drkhaled *.txt
+recursive-exclude drkhaled *.pyc
