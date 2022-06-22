@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "creation": "2022-05-26 15:10:55.860093",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_person",
+  "contact_no"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "fieldname": "sales_person",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Person",
+   "oldfieldname": "sales_person",
+   "oldfieldtype": "Link",
+   "options": "Sales Person",
+   "print_width": "200px",
+   "reqd": 1,
+   "search_index": 1,
+   "width": "200px"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Contact No.",
+   "oldfieldname": "contact_no",
+   "oldfieldtype": "Data",
+   "print_width": "100px",
+   "read_only": 1,
+   "width": "100px"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2022-05-26 15:13:28.188638",
+ "modified_by": "Administrator",
+ "module": "Dr Khaled",
+ "name": "Daily Team Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

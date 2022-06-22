@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Sales Distribution",
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2022-06-15 01:11:11.144823",
+   "default_value": null,
+   "doc_type": "Sales Distribution",
+   "docstatus": 0,
+   "doctype_or_field": "DocType",
+   "field_name": null,
+   "idx": 0,
+   "modified": "2022-06-15 01:11:11.144823",
+   "modified_by": "Administrator",
+   "name": "Sales Distribution-main-links_order",
+   "owner": "Administrator",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "links_order",
+   "property_type": "Small Text",
+   "row_name": null,
+   "value": "[\"e3a1e198e2\", \"b8794e6cd9\"]"
+  }
+ ],
+ "sync_on_migrate": 1
+}
